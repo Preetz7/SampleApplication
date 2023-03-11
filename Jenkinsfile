@@ -16,7 +16,7 @@ pipeline {
                        not {
                             branch "master"
                        }
-                 }
+                 
                  steps {
                        echo "Hello"
                  }
